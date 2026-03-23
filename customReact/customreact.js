@@ -15,7 +15,7 @@ function customRender(reactElement, container){
 }
 
 const reactElement = {
-    type: 'a',
+    type: 'a',// can be div,p,a or any other tag
     props: {
         href: 'https://google.com',
         target: '_blank',
